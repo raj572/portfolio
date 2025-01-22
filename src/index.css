@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply text-gray-900 antialiased;
+  }
+}
+
+@layer components {
+  .social-icon-link {
+    @apply p-3 hover:text-blue-600 transition-colors rounded-full hover:bg-blue-50 transform hover:scale-110 transition-all duration-300;
+  }
+}
+
+@layer utilities {
+  .animate-float {
+    animation: float 2.5s ease-in-out infinite;
+  }
+
+  .animate-spin-slow {
+    animation: spin 12s linear infinite;
+  }
+
+  .animate-spin-slow-reverse {
+    animation: spin 12s linear infinite reverse;
+  }
+
+  .animate-gradient {
+    background-size: 200% 200%;
+    animation: gradient 8s ease infinite;
+  }
+
+  .animate-pulse-slow {
+    animation: pulse 3s ease-in-out infinite;
+  }
+
+  .animate-typing {
+    animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
+  }
+}
+
+/* Workflow animations */
+.workflow-step {
+  transition: all 0.75s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.workflow-step > div {
+  transition: all 0.75s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.workflow-step.show > div {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1) translate(-50%, -50%);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2) translate(-40%, -40%);
+    opacity: 0.8;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: currentColor;
+  }
+}
+
+.typing-container {
+  @apply relative inline-block overflow-hidden whitespace-nowrap;
+  border-right: 2px solid;
+}
