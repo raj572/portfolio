@@ -332,7 +332,7 @@ const projects = [
   {
     title: "Portfolio Website",
     description: "A portfolio website with a sleek and modern design.",
-    image: "src/assets/Portfolio.webp",
+    image: "https://scontent.fpat1-1.fna.fbcdn.net/o1/v/t0/f2/m340/AQN8tHDjxwFIBVaR-rjqaXgMYi_sXQSJoXW8mgSnE7ULlilIvZ2w6WLf1CwznqQyiQcl4j7FwvQ-GmF3e6hg8BxEgW6AcV8P3zTFLZYR37chzc56HQkpMlb3ysR4-BPahtfBgwb76hsAQCbb9X6MiGjzT9twpg.jpeg?_nc_ht=scontent.fpat1-1.fna.fbcdn.net&_nc_cat=109&ccb=9-4&oh=00_AYAiC9pJkTdNnSenfLPpmEKqZlLJS3FbiuiALDVsj90XRg&oe=67931C39&_nc_sid=5b3566",
     technologies: ["HTML", "CSS", "JavaScript"],
     link: "https://raj572.github.io/Portfolio-old",
     target: "_blank"
@@ -340,7 +340,7 @@ const projects = [
   {
     title: "Business Website",
     description: "A business website with a sleek and modern design.",
-    image: "src/assets/Business.webp",
+    image: "https://scontent.fpat1-1.fna.fbcdn.net/o1/v/t0/f2/m340/AQPaJzzhyOKNFSxFsBb_rr940Z20EiwVCv3ruPahLqpHGkWubP9L0d5XluU985JTm6x-SrO8weP9oaUBMmLGDGfEv7HyopmsLpXqRPmuHXULi0LPIog4sRk7eeWjL-Jr4r2WBALbeIgT9pqQcOcgHqmi2P_WDw.jpeg?_nc_ht=scontent.fpat1-1.fna.fbcdn.net&_nc_cat=103&ccb=9-4&oh=00_AYA7nlkAXLBkvlbjVmpgU8c1RzCYDsQa8MEcPKwxGnsYRw&oe=679309FB&_nc_sid=5b3566",
     technologies: ["React", "SpringBoot", "TypeScript", "Tailwind CSS"],
     link: "https://sysclu.com/",
     target: "_blank"
@@ -348,7 +348,7 @@ const projects = [
   {
     title: "Landing Page",
     description: "A landing page with a sleek and modern design.",
-    image: "src/assets/landing.webp",
+    image: "https://scontent.fpat1-1.fna.fbcdn.net/o1/v/t0/f2/m340/AQOX_dFNYicJiGfNrkw1KnQqBu4w9iaPZ-veI4nK-Bsfq2kTTLClI_OVTEDeMFblqaBnSBtlx5oXX2FdWv0zD0sUc3zK9QDy1ZtbtWO0vrlxuwKHNlygrAq3qiwyq34oNQqoe9b-JrOIuRDjSRAOFhKqOj86SA.jpeg?_nc_ht=scontent.fpat1-1.fna.fbcdn.net&_nc_cat=103&ccb=9-4&oh=00_AYB2AYxA1SU2lPWU1-uHYIDQ12hihCzsWZ4r1L6DG9bCeA&oe=67933C6B&_nc_sid=5b3566",
     technologies: ["HTML", "CSS", "JavaScript"],
     link: "https://raj572.github.io/instech",
     target: "_blank"
