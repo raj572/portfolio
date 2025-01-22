@@ -324,7 +324,7 @@ const projects = [
   {
     title: "Blogging Platform",
     description: "A full-stack blogging platform with real-time updates and social features.",
-    image: "src/assets/blogging.webp",
+    image: "src/assets/Blogging.webp",
     technologies: ["React", "Node.js"],
     link: "https://wonderful-dragon-440b85.netlify.app/",
     target: "_blank"
