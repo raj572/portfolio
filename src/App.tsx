@@ -324,7 +324,7 @@ const projects = [
   {
     title: "Blogging Platform",
     description: "A full-stack blogging platform with real-time updates and social features.",
-    image: "src/assets/Blogging.webp",
+    image: "https://scontent.fpat1-1.fna.fbcdn.net/o1/v/t0/f2/m340/AQNWeTH_f6rFkEF1Z0Eyh1LKo0LZLXYInqDovDGZRV6807Y5VH81D3C9RgUhxL_9HKQyO9IGLIk-YHeYVnRND7pvGJp20liX8B03x-a0KpVhVJbxwoYEyyNkTNQ7_PCF1NNzz158DIf3j_U9gZmmrN8sM13i.jpeg?_nc_ht=scontent.fpat1-1.fna.fbcdn.net&_nc_cat=105&ccb=9-4&oh=00_AYAzcbV9lbIP6OFpZF4WPubCSbj-66Wi0di0ecyCkPZnFQ&oe=67930F45&_nc_sid=5b3566",
     technologies: ["React", "Node.js"],
     link: "https://wonderful-dragon-440b85.netlify.app/",
     target: "_blank"
