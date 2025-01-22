@@ -265,7 +265,7 @@ function App() {
             I'm always interested in hearing about new projects and opportunities.
           </p>
           <a
-            href="https://wa.me/8935894362"
+            href="https://wa.me/+91 8935894362"
             className="inline-flex items-center bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-opacity-90 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 group"
           >
             <span>Get in Touch</span>
