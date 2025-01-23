@@ -87,17 +87,17 @@ function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
       {/* Hero Section */}
-      <section className="min-h-screen flex flex-col justify-center items-center relative px-4 py-16 sm:py-24">
+      <section className="min-h-screen flex flex-col justify-center items-center relative px-4 py-4 sm:py-24">
         <div className={`w-full max-w-6xl mx-auto text-center transform transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
           {/* Profile Image Container */}
           <div className="relative w-32 h-32 sm:w-40 sm:h-40 md:w-44 md:h-44 mx-auto mb-8 sm:mb-12 group">
             <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full animate-spin-slow opacity-75 blur-sm"></div>
             <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full animate-spin-slow-reverse opacity-75 blur-sm"></div>
-            <div className="absolute inset-2 bg-gradient-to-br from-gray-50 to-white rounded-full"></div>
+            <div className="absolute inset-2 bg-gradient-to-br from-gray-50 to-white rounded-full z-1"></div>
             <img
               src="https://scontent.fpat1-1.fna.fbcdn.net/v/t39.30808-6/474464441_2285294008510195_5307979756454677228_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=jLgcOc_GfggQ7kNvgEeEWG_&_nc_zt=23&_nc_ht=scontent.fpat1-1.fna&_nc_gid=A80BNZv3gdc0Frv8bC6duiJ&oh=00_AYASQ7uJ5YjW0wkGvajHpqJt6wtIczoJYxmWKQwMNmUrMg&oe=67971F0F"
               alt="Avinash Kumar"
-              className="absolute inset-3 rounded-full object-cover group-hover:scale-105 transition-transform duration-300 shadow-lg"
+              className="absolute offset-auto rounded-full object-cover group-hover:scale-105 transition-transform duration-30 shadow-lg"
             />
           </div>
 
@@ -265,7 +265,7 @@ function App() {
             I'm always interested in hearing about new projects and opportunities.
           </p>
           <a
-            href="https://wa.me/+91 8935894362"
+            href="https://wa.me/8935894362"
             className="inline-flex items-center bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-opacity-90 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 group"
           >
             <span>Get in Touch</span>
@@ -324,7 +324,7 @@ const projects = [
   {
     title: "Blogging Platform",
     description: "A full-stack blogging platform with real-time updates and social features.",
-    image: "https://scontent.fpat1-1.fna.fbcdn.net/o1/v/t0/f2/m340/AQNWeTH_f6rFkEF1Z0Eyh1LKo0LZLXYInqDovDGZRV6807Y5VH81D3C9RgUhxL_9HKQyO9IGLIk-YHeYVnRND7pvGJp20liX8B03x-a0KpVhVJbxwoYEyyNkTNQ7_PCF1NNzz158DIf3j_U9gZmmrN8sM13i.jpeg?_nc_ht=scontent.fpat1-1.fna.fbcdn.net&_nc_cat=105&ccb=9-4&oh=00_AYAzcbV9lbIP6OFpZF4WPubCSbj-66Wi0di0ecyCkPZnFQ&oe=67930F45&_nc_sid=5b3566",
+    image: "src/assets/blogging.webp",
     technologies: ["React", "Node.js"],
     link: "https://wonderful-dragon-440b85.netlify.app/",
     target: "_blank"
@@ -332,7 +332,7 @@ const projects = [
   {
     title: "Portfolio Website",
     description: "A portfolio website with a sleek and modern design.",
-    image: "https://scontent.fpat1-1.fna.fbcdn.net/o1/v/t0/f2/m340/AQN8tHDjxwFIBVaR-rjqaXgMYi_sXQSJoXW8mgSnE7ULlilIvZ2w6WLf1CwznqQyiQcl4j7FwvQ-GmF3e6hg8BxEgW6AcV8P3zTFLZYR37chzc56HQkpMlb3ysR4-BPahtfBgwb76hsAQCbb9X6MiGjzT9twpg.jpeg?_nc_ht=scontent.fpat1-1.fna.fbcdn.net&_nc_cat=109&ccb=9-4&oh=00_AYAiC9pJkTdNnSenfLPpmEKqZlLJS3FbiuiALDVsj90XRg&oe=67931C39&_nc_sid=5b3566",
+    image: "src/assets/Portfolio.webp",
     technologies: ["HTML", "CSS", "JavaScript"],
     link: "https://raj572.github.io/Portfolio-old",
     target: "_blank"
@@ -340,7 +340,7 @@ const projects = [
   {
     title: "Business Website",
     description: "A business website with a sleek and modern design.",
-    image: "https://scontent.fpat1-1.fna.fbcdn.net/o1/v/t0/f2/m340/AQPaJzzhyOKNFSxFsBb_rr940Z20EiwVCv3ruPahLqpHGkWubP9L0d5XluU985JTm6x-SrO8weP9oaUBMmLGDGfEv7HyopmsLpXqRPmuHXULi0LPIog4sRk7eeWjL-Jr4r2WBALbeIgT9pqQcOcgHqmi2P_WDw.jpeg?_nc_ht=scontent.fpat1-1.fna.fbcdn.net&_nc_cat=103&ccb=9-4&oh=00_AYA7nlkAXLBkvlbjVmpgU8c1RzCYDsQa8MEcPKwxGnsYRw&oe=679309FB&_nc_sid=5b3566",
+    image: "src/assets/Business.webp",
     technologies: ["React", "SpringBoot", "TypeScript", "Tailwind CSS"],
     link: "https://sysclu.com/",
     target: "_blank"
@@ -348,7 +348,7 @@ const projects = [
   {
     title: "Landing Page",
     description: "A landing page with a sleek and modern design.",
-    image: "https://scontent.fpat1-1.fna.fbcdn.net/o1/v/t0/f2/m340/AQOX_dFNYicJiGfNrkw1KnQqBu4w9iaPZ-veI4nK-Bsfq2kTTLClI_OVTEDeMFblqaBnSBtlx5oXX2FdWv0zD0sUc3zK9QDy1ZtbtWO0vrlxuwKHNlygrAq3qiwyq34oNQqoe9b-JrOIuRDjSRAOFhKqOj86SA.jpeg?_nc_ht=scontent.fpat1-1.fna.fbcdn.net&_nc_cat=103&ccb=9-4&oh=00_AYB2AYxA1SU2lPWU1-uHYIDQ12hihCzsWZ4r1L6DG9bCeA&oe=67933C6B&_nc_sid=5b3566",
+    image: "src/assets/landing.webp",
     technologies: ["HTML", "CSS", "JavaScript"],
     link: "https://raj572.github.io/instech",
     target: "_blank"
